@@ -1,0 +1,115 @@
+{
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [  {
+    "name": "Globals",
+    "label": "Globals"
+  } ],
+  "output_groups": [ ],
+  "template_input_params": [
+    {
+      "name": "AWS_ACCESS_KEY",
+      "label": "Aws Access Key",
+      "description": "Aws Access Key",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "AWS_SECRET_KEY",
+      "label": "Aws Secret Key",
+      "description": "Aws Secret Key",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "AWS_REGION",
+      "label": "Aws Region",
+      "description": "Aws Region",
+      "type": "string",
+      "default": "us-east-1",
+      "validation": "",
+      "group_name": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "AWS_AVAILABILITY_ZONE",
+      "label": "Aws Availability Zone",
+      "description": "Aws Availability Zone",
+      "type": "string",
+      "default": "us-east-1a",
+      "validation": "",
+      "group_name": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "PATH_TO_PRIVATE_KEY",
+      "label": "Path To Private Key",
+      "description": "Path To Private Key",
+      "type": "string",
+      "default": "mykey",
+      "validation": "",
+      "group_name": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "PATH_TO_PUBLIC_KEY",
+      "label": "Path To Public Key",
+      "description": "Path To Public Key",
+      "type": "string",
+      "default": "mykey.pub",
+      "validation": "",
+      "group_name": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "AMIS",
+      "label": "Amis",
+      "description": "Amis",
+      "type": "map",
+      "default": {
+        "us-east-1": "ami-0a51b78a46e05227d",
+        "us-west-2": "ami-06b94666",
+        "eu-west-1": "ami-844e0bf7"
+      },
+      "validation": "",
+      "group_name": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    }
+  ],
+  "template_output_params": [ ]
+}
